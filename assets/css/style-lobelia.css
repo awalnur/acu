@@ -578,27 +578,27 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-white-22 { background-color: rgba(255, 255, 255, 0.22); }
 
-.bg-theme { background-color: #0a1992 !important; }
+.bg-theme { background-color: #9f755b !important; }
 
-.bg-theme.current { background-color: rgba(10, 25, 146, 0.7) !important; }
+.bg-theme.current { background-color: rgb(159, 117, 91) !important; }
 
-.bg-theme-alt { background-color: #000537 !important; }
+.bg-theme-alt { background-color: #412e22 !important; }
 
-.bg-theme-alt.current { background-color: rgba(0, 5, 55, 0.7) !important; }
+.bg-theme-alt.current { background-color: rgb(65, 46, 34) !important; }
 
 .bg-theme-grad { background-image: linear-gradient(to right, #0a1992 0%, #000537 100%) !important; }
 
 .bg-theme-grad-alt { background-image: linear-gradient(to right, #000537 0%, #0a1992 100%) !important; }
 
-.bg-theme-grad-s2 { background-image: linear-gradient(135deg, #0a1992 0%, #000537 100%) !important; }
+.bg-theme-grad-s2 { background-image: linear-gradient(135deg, #ffeee6 0%, #b08f79 100%) !important; }
 
-.bg-theme-grad-s2-alt { background-image: linear-gradient(135deg, #000537 0%, #0a1992 100%) !important; }
+.bg-theme-grad-s2-alt { background-image: linear-gradient(135deg, #ffb384 0%, #FFEEE6FF 100%) !important; }
 
 .bg-theme-grad-alternet { background-image: linear-gradient(to right, #0a1992 0%, #7a0fff 100%) !important; }
 
-.bg-theme-dark { background-color: #000537 !important; }
+.bg-theme-dark { background-color: #6c4e3c !important; }
 
-.bg-theme-dark.current { background-color: rgba(0, 5, 55, 0.7) !important; }
+.bg-theme-dark.current { background-color: rgb(108, 78, 60) !important; }
 
 .bg-theme-dark-alt { background-color: #08157a !important; }
 
@@ -620,7 +620,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-theme-accent-alt.current { background-color: rgba(70, 189, 244, 0.7) !important; }
 
-.bg-blend:before { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #0a1992); }
+.bg-blend:before { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #91674c); }
 
 .bg-blend-alt:before { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000537); }
 
@@ -1650,9 +1650,9 @@ hr { position: relative; z-index: 5; }
 
 .btn:hover { color: #fff !important; }
 
-.btn-grad { border: none; background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
+.btn-grad { border: none; background-image: linear-gradient(to right, #ff7300 0%, #fda401 100%); }
 
-.btn-grad:before { position: absolute; left: 0; top: 0; content: ""; width: 100%; height: 100%; z-index: -2; border-radius: 5px; opacity: 0; transition: all .5s; background-image: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%); }
+.btn-grad:before { position: absolute; left: 0; top: 0; content: ""; width: 100%; height: 100%; z-index: -2; border-radius: 5px; opacity: 0; transition: all .5s; background-image: linear-gradient(to right, #fda401 0%, #ff7300 100%); }
 
 .btn-grad:hover:before { opacity: 1; }
 
@@ -1724,13 +1724,13 @@ hr { position: relative; z-index: 5; }
 
 .btn-outline.on-bg-theme, .btn-outline.on-bg-theme-alt, .btn-outline.on-bg-theme-dark, .btn-outline.on-bg-theme-dark-alt { color: #fff; }
 
-.btn-outline.on-bg-theme:before { background-color: #0a1992; }
+.btn-outline.on-bg-theme:before { background-color: #ff6200; }
 
-.btn-outline.on-bg-theme-alt:before { background-color: #000537; }
+.btn-outline.on-bg-theme-alt:before { background-color: #a64000; }
 
-.btn-outline.on-bg-theme-dark:before { background-color: #000537; }
+.btn-outline.on-bg-theme-dark:before { background-color: #a64000; }
 
-.btn-outline.on-bg-theme-dark-alt:before { background-color: #08157a; }
+.btn-outline.on-bg-theme-dark-alt:before { background-color: #a64000; }
 
 .btn-outline:hover { color: #fff !important; }
 
@@ -6453,7 +6453,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .has-fixed:not(.is-dark) .header-main { background: #fff; }
 
-.has-fixed.is-dark .header-main { background: #061162; }
+.has-fixed.is-dark .header-main { background: #8d7b73; }
 
 .has-fixed.is-shrink .header-main { padding: 8px 0; }
 
